@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="forca.css">
+	<style type="text/css">
+		body{
+			background: #ff8300;
+		}
+	</style>
+</head>
+<body style="background: #ff8300;">
+	<section id="jogo">
+		<div class="img">
+			<img id="imagem" src="img/forca-0.jpg"><br>
+		</div>
+		<div>
+			<label class="dica">Dica:</label>
+			<label id="txtDica" class="dica"> Animal</label><br>
+		</div>
+		<div class="palavra">
+			<label id="dicaPalavra" class="texto">_ _ _ _ _</label>
+			<br><label id="info"></label>
+		</div><br>
+		<div class="jogada">
+			<br> <label>Letra</label> 
+			<input type="text" value="" size="1" id="txtLetra"> 
+			<button id="btAdivinharLetra">Adivinhar</button>
+			<br> <label>Palavra</label> 
+			<input type="text" value="" size="10" id="txtPalavra">
+			<button id="btAdivinharPalavra">Adivinhar</button>
+			<p>Obs.: Digite uma letra ou chute a palavra toda.</p>
+		</div>
+		<button id="btReiniciar">Reiniciar</button>
+	</section>
+	<script src="forca.js"></script>
+	<script type="text/javascript">
+	</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+	font-style: normal;
+}
+.verde{
+	color: green;
+}
+.vermelho{
+	color: red;
+}
+h1{
+	display: none;
+}
+.centro{
+	height: 500px;
+}
+.jogo{
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+@media only screen and (max-width: 900px) {
+	.jogo{
+		margin-left: 5%;
+	}
+}
+@media only screen and (min-width: 900px) {
+	section{
+		width: 60%;
+	}
+	.centro{
+		height: 300px;
+	}
+	.jogo{
+		margin-left: 5%;
+	}
+}
+.linha{
+	height: 33%;
+}
+.casa{
+	background-color: beige;
+	height: -webkit-fill-available;
+	width: 32.5%;
+	float: left;
+	border: 1px red solid;
+	padding-top: 5%;
+	font-size: -webkit-xxx-large;
+}
+.esquerda{
+	border-left: none;
+}
+.direita{
+	border-right: none;
+}
+.topo{
+	border-top: none;
+}
+.embaixo{
+	border-bottom: none;
+}

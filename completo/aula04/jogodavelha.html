@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="../aula02/index.css">	
+	<link rel="stylesheet" type="text/css" href="velha.css">	
+</head>
+<body>
+	<section class="centro">
+		<div class="jogo">
+			<div class="linha">
+				<div class="casa vazia esquerda topo diagonalO"></div>
+				<div class="casa vazia topo meioV"></div>
+				<div class="casa vazia direita topo diagonal"></div>
+			</div>
+			<div class="linha">
+				<div class="casa vazia esquerda meio"></div>				
+				<div class="casa vazia meio meioV diagonal  diagonalO"></div>				
+				<div class="casa vazia direita meio"></div>				
+			</div>
+			<div class="linha">
+				<div class="casa vazia esquerda  embaixo  diagonal"></div>								
+				<div class="casa vazia embaixo meioV"></div>								
+				<div class="casa vazia direita  embaixo  diagonalO"></div>								
+			</div>
+		</div>
+		<div><br>
+			<h1 class="jogador">Vez do jogador <span id="jogador"></span></h1>
+			<h1 class="ganhador verde">O jogador <span id="ganhador"></span> ganhou!</h1>
+			<h1 class="velha vermelho">Deu velha!</h1>
+			<br><button class="btn" id="iniciar">Iniciar</button>
+		</div>
+	</section>
+	<script src="velha.js"></script>
+</body>
+</html>

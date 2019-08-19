@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="../aula02/index.css">	
+	<link rel="stylesheet" type="text/css" href="notas.css">	
+</head>
+<body>
+	<nav class="centro textonaoselecionavel">
+		<header>Bloco de Notas<span>🔍</span></header>
+	</nav>
+	<section class="centro textonaoselecionavel">
+		<div class="linha" id="linha1">
+			<h1>Titulo da nota <span contextmenu="" ="btOpcoes">⁝</span>
+				<span>
+					<ul class="btsOpcoes">
+						<li class="abrir" onclick="abrir()"><a>Abrir</a></li>
+						<li class="deletar" onclick="deletar(1)"><a>Deletar</a></li>
+					</ul>
+				</span>
+			</h1>
+			<p>descrição resumida da nota descrição resumida da nota descrição resumida da nota descrição resumida da nota descrição resumida da nota descrição resumida da nota descrição resumida da nota</p>
+		</div>
+	</section>
+	<div class="btAdd textonaoselecionavel">+</div>
+	<script src="notas.js"></script>
+</body>
+</html>

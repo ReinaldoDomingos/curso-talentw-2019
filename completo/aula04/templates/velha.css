@@ -1,0 +1,37 @@
+*{
+}
+.verde{
+}
+.vermelho{
+}
+h1{
+}
+.centro{
+}
+.jogo{
+}
+
+@media only screen and (max-width: 900px) {
+	.jogo{
+	}
+}
+@media only screen and (min-width: 900px) {
+	section{
+	}
+	.centro{
+	}
+	.jogo{
+	}
+}
+.linha{
+}
+.casa{
+}
+.esquerda{
+}
+.direita{
+}
+.topo{
+}
+.embaixo{
+}

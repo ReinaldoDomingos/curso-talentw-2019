@@ -1,0 +1,58 @@
+*{font-size: 1rem;}
+section{
+	background: white;
+	padding: 15px;
+	border-radius:  10px;
+	width: 60%;
+	margin: auto;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+}
+button{
+	color: #ffffff;
+	padding: 5px 25px;
+	border-radius: 15px;
+	background: #ff4d00;
+	z-index: 2;
+}
+.img{
+	float: left;	
+}
+/*.dica{
+	font-size: 1rem;
+	font-weight: normal;
+}*/
+.texto{
+	letter-spacing: 4px;
+}
+#btReiniciar{
+	display: none;
+}
+@media only screen and (min-width: 650px) {
+	.palavra{ 
+		margin-top: 20%;
+	}
+	img{
+		width: 150%;
+	}
+	.dica{
+		margin-left: 5%;
+	}
+	.texto{
+		font-size: 50px;
+	}
+	section{
+		width: 50%;
+		padding-left: 35%;
+	}
+	#txtDica{
+		margin:0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.palavra{
+		margin-top: 25%;
+	}
+	.texto{
+		font-size: 30px;
+	}
+}
